@@ -1,0 +1,279 @@
+/* Layout */
+
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    background-color:black;
+    height:65px;
+    margin-left:-10px;
+    margin-right:-10px;
+    margin-top:-15px;
+}
+
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#navbar ul {
+    list-style-type:none;
+    background-color:black;
+    text-align:center;
+    padding:5px;
+    margin-top:0px;
+    margin-left:-10px;
+    margin-right:-10px;   
+}
+
+#navbar ul li {
+    display:inline;
+    
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-family:cursive;
+    padding:.2em 1em;
+    color:#ff5588;
+    background-color:black;
+}
+
+#navbar ul li a:hover {
+    color:#fff;
+    background-color:black;
+}
+
+ul {
+    padding:0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration:none;
+}
+
+#Home {
+    width:100%;
+    height:800px;
+    background-image:url("https://static.pexels.com/photos/129208/pexels-photo-129208-large.jpeg");
+    margin-top:-16px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#About {
+    width:100%;
+    height:700px;
+    background-color:#bbbbbb;
+    margin-top:-28px;
+}
+
+hr {
+    width:400px;
+    height:2px;
+    background-color:black;
+    border-color:black;
+}
+
+.headings {
+    text-align:center;
+    font-size:30px;
+    padding-top:20px;
+    font-family:cursive;
+}
+
+h3 {
+    font-family: 'Crafty Girls', cursive;
+    font-size:30px;
+    margin-left:30px;
+}
+
+p {
+    margin-left:30px;
+    font-family: 'Crafty Girls', cursive;
+    font-size:20px;
+    padding-top:40px;
+    padding-right:20px;
+    padding-left:20px;
+}
+
+#Blog {
+    width:100%;
+    height:1000px;
+    margin-top:-20px;
+    background-color:#d47db6;
+}
+
+#Contact {
+    width:100%;
+    height:900px;
+    background-color:black;
+    margin-top:-20;
+}
+
+#top-part {
+    color:#fff;
+}
+
+#contact-hr {
+    background-color:#fff;
+    border-color:#fff;
+}
+
+.input-titles{
+    color:#fff;
+}
+
+input {
+    width:30%;
+    border:2px solid #4c96d7;
+    border-radius:4px;
+    padding:15px;
+    margin:10px;
+    background-color:#4c96d7;
+    color:white;
+    margin-left:100px;
+}
+
+#first-name {
+    position:absolute;
+    margin-left:165px;
+    top:2900px;
+}
+
+#first-name-input {
+    position:absolute;
+    left:70px;
+    top:2925px;
+}
+
+#email-address {
+    position:absolute;
+    left:850px;
+    top:2900px;
+}
+
+#email-address-input {
+    position:absolute;
+    left:750px;
+    top:2920px;
+}
+
+#message {
+    position:absolute;
+    left:170px;
+    top:3030px;
+}
+
+#message-input {
+    position:absolute;
+    left:70px;
+    top:3050px;
+    width:1100px;
+    height:300px;
+    overflow:auto;
+}
+
+#submit {
+    position:absolute;
+    left:130px;
+    top:3400px;
+    width:1100px;
+}
+
+input[type=submit] {
+    background-color:#ff5588;
+    border-color:#ff5588;
+    margin-left:40px;
+}
+
+.social-icons {
+    width:100px;
+    height:100px;
+    display:inline;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    margin-left:220px;
+}
+
+#fbicon {
+    width:108px;
+    height:108px;
+}
+
+.blog-images {
+    height:250;
+    width:350;
+}
+
+.post-paragraphs {
+    font-size:20px;
+    display:block;
+    color:black;
+}
+
+.post-paragraphs: last-of-type {
+    padding-bottom:0;
+}
+
+#post-1 {
+    width:350;
+    height:500;
+    background-color:#00cdb3;
+    position: absolute;
+    left:90px;
+    top:1950px;
+    overflow:auto;
+}
+
+#post-1-image {
+    position:absolute;
+    left:90px;
+    top:1700;
+}
+
+h2 {
+    padding-left:17px;
+}
+
+#post-2 {
+    width:350;
+    height:500;
+    background-color:#ff9a00;
+    position: absolute;
+    left:525px;
+    top:1950px;
+    overflow:auto;
+}
+
+#post-2-image {
+    position:absolute;
+    left:525px;
+    top:1700;
+}
+
+#post-3 {
+    width:350;
+    height:500;
+    background-color:#06e157;
+    position: absolute;
+    left:950px;
+    top:1950px;
+    overflow:auto;
+}
+
+#post-3-image {
+    position:absolute;
+    left:950px;
+    top:1700;
+}
+
+.entry-title {
+    padding-top:20px;
+}
